@@ -1,0 +1,20 @@
+About DNS:
+Current DZ (Domain Zones) are
+.dev for developers
+.fun for fun?
+.exp for experience
+.service for services (no register available)
+
+ntl.dev (registar.service) is MDOR
+Main Domain Official Registar - MDOR
+
+Client example query:
+
+`GET ntl.dev`
+`GET registar.service`
+`GET 240.fun`
+answer: `ANSWER {dns service name} {web addres from query} {IPv6[IPv4] of web site}`
+
+Answer example:
+`ANSWER dns.service ntl.dev ebbc:efbd:ab3c:e4b1:f011:6b80:6643:5190`
+
